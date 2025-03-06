@@ -15,7 +15,7 @@ public:
     
     void listarTarefas() {
         printf("Lista de Tarefas:\n");
-        for (int x=0; x>tarefas.size(); x++) {
+        for (int x=0; x<tarefas.size(); x++) {
             printf("%d: %s \n", x, tarefas[x] );
         };
     }
